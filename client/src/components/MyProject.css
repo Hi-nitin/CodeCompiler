@@ -1,0 +1,92 @@
+html, body {
+    height: 100%; /* Full height for html and body */
+    margin: 0;    /* Remove default margin */
+    background-color: #121212; /* Dark background color */
+    color: #ffffff; /* Light text color */
+}
+
+.my-project-container {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: row; /* Arrange items in a row */
+    height: 100vh; /* Full viewport height */
+    font-family: Arial, sans-serif; /* Set font for the container */
+}
+
+.project-table-container {
+    flex: 1; /* Takes up half the space */
+    padding: 20px; /* Add padding for better spacing */
+    box-sizing: border-box; /* Include padding in total width */
+    overflow-y: auto; /* Allow scrolling if content overflows */
+    background-color: #1e1e1e; /* Darker background for table container */
+}
+
+.code-display-container {
+    flex: 1; /* Make code display container flexible */
+    padding: 20px; /* Add padding for spacing */
+    box-sizing: border-box; /* Include padding in total width */
+    background-color: #1e1e1e; /* Match the dark background */
+    display: flex; /* Use flex to stack code display and iframe */
+    flex-direction: column; /* Stack items vertically */
+}
+
+.project-code {
+    background-color: #f8f8f8; /* Light background for code */
+    color: #000; /* Dark text for readability */
+    padding: 10px;
+    border: 1px solid #ddd;
+    overflow: auto;
+    white-space: pre-wrap; /* Allows for wrapping of long lines */
+    flex: 1; /* Allow code display to take up available space */
+}
+
+.iframe-container {
+    flex: 1; /* Takes up the remaining space */
+    padding: 20px; /* Add padding for spacing */
+    box-sizing: border-box; /* Include padding in total width */
+    background-color: #1e1e1e; /* Match the dark background */
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff; /* White text for heading */
+}
+
+.project-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px; /* Margin for top spacing */
+}
+
+.project-table th, .project-table td {
+    border: 1px solid #333; /* Darker border for table */
+    padding: 8px;
+    text-align: left;
+}
+
+.project-table th {
+    background-color: #333; /* Header background */
+    color: #ffffff; /* Header text color */
+}
+
+.see-project-button {
+    background-color: #4CAF50; /* Green button */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    text-align: center;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.see-project-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+.project-iframe {
+    width: 100%;
+    height: 100%; /* Full height of its container */
+    border: none; /* No border */
+    background-color: #fff; /* Background color for iframe content */
+}

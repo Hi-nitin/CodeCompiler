@@ -1,0 +1,41 @@
+body {
+    background-color: #212529; /* Dark background for the entire page */
+    color: white; /* White text for readability */
+  }
+  
+  .form-example {
+    max-width: 600px; /* Set max width for the form */
+    margin: 50px auto; /* Center the form */
+    padding: 30px; /* More padding for a spacious look */
+    background-color: #343a40; /* Darker background for the form */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Dark shadow */
+  }
+  
+  .form-title {
+    text-align: center; /* Center the title */
+    margin-bottom: 20px; /* Space below the title */
+    font-size: 24px; /* Increase font size for emphasis */
+  }
+  
+  .submit-button {
+    margin-top: 20px; /* Space above the button */
+    width: 100%; /* Full-width button */
+    background-color: #007bff; /* Bootstrap primary color */
+    border: none; /* Remove border */
+    transition: background-color 0.3s; /* Smooth transition for hover */
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
+  
+  .form-control {
+    transition: border-color 0.3s; /* Smooth transition for border */
+  }
+  
+  .form-control:focus {
+    border-color: #007bff; /* Bootstrap primary color on focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Light blue glow */
+  }
+  
