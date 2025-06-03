@@ -110,7 +110,7 @@ html, body {
   height: 100%;
   gap: 1px; /* Adds space between the editor sections */
   flex-grow: 1; /* Allows it to take the remaining space */
-  width: 100%; /* Ensures it spans full width available */
+  width: 100%; 
 }
 
 .editor-section {
@@ -139,6 +139,6 @@ h2 {
 iframe {
   width: 100%;
   height: 100%;
-  border: none; /* Removed border for a cleaner look */
+  border: none; 
   background-color: #ffffff;
 }

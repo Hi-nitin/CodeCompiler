@@ -4,6 +4,8 @@ import tokenchecker from '../api/checktoken';
 import { useNavigate } from 'react-router-dom';
 import Cookies from 'js-cookie';
 import { postapi } from '../api/getpost';
+import { Helmet } from 'react-helmet';  // ← Import Helmet
+
 
 const MyHome = () => {
   const [loading, setLoading] = useState();
@@ -70,6 +72,11 @@ const MyHome = () => {
 
   return (
     <>
+        <Helmet>
+      <title>keraman</title>
+      <meta name="description" content="A React-based JSFiddle clone to write and run HTML, CSS, and JavaScript code online. Save and manage your projects easily." />
+    </Helmet>
+
       <div className="app">
         <nav className="navbar" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
           <span style={{ fontSize: '20px', fontWeight: 'bold' }}>JSFiddle Clone</span>
