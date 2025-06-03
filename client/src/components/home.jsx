@@ -72,14 +72,19 @@ const MyHome = () => {
 
   return (
     <>
-        <Helmet>
-      <title>keraman</title>
-      <meta name="description" content="A React-based JSFiddle clone to write and run HTML, CSS, and JavaScript code online. Save and manage your projects easily." />
-    </Helmet>
+    <Helmet>
+  <title>Keraman - Build and Share Code Snippets Online</title>
+  <meta 
+    name="description" 
+    content="Keraman is an online code editor like JSFiddle, allowing you to write, run, and save HTML, CSS, and JavaScript. Try Keraman to create and share your web projects easily." 
+  />
+  <meta name="keywords" content="Keraman, online code editor, JSFiddle alternative, run HTML CSS JS, share code online" />
+</Helmet>
+
 
       <div className="app">
         <nav className="navbar" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-          <span style={{ fontSize: '20px', fontWeight: 'bold' }}>JSFiddle Clone</span>
+          <span style={{ fontSize: '20px', fontWeight: 'bold' }}>JSFiddle Cloneer</span>
           <div style={{ flex: 1, display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
     <input
               type="text"
