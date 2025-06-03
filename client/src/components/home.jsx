@@ -73,12 +73,12 @@ const MyHome = () => {
   return (
     <>
     <Helmet>
-  <title>Keraman - Build and Share Code Snippets Online</title>
+  <title>fdkjlhgkjfdhgghkdh</title>
   <meta 
     name="description" 
-    content="Keraman is an online code editor like JSFiddle, allowing you to write, run, and save HTML, CSS, and JavaScript. Try Keraman to create and share your web projects easily." 
+    content="fdkjlhgkjfdhgghkdh is an online code editor like JSFiddle, allowing you to write, run, and save HTML, CSS, and JavaScript. Try Keraman to create and share your web projects easily." 
   />
-  <meta name="keywords" content="Keraman, online code editor, JSFiddle alternative, run HTML CSS JS, share code online" />
+  <meta name="keywords" content="fdkjlhgkjfdhgghkdh, online code editor, JSFiddle alternative, run HTML CSS JS, share code online" />
 </Helmet>
 
 
